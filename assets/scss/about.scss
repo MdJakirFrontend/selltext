@@ -1,0 +1,253 @@
+.innerSec-padding {
+    padding: 50px 0;
+}
+/* inner banner */
+.inner-bannerSec {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: ccenter;
+    .banner-inner {
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            // line-height: 90px;
+            color: #fff;
+            font-weight: 700;
+            line-height: calc(100% + 10px);
+        }
+    }
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+
+        li.breadcrumb-item,
+        a {
+            font-size: 12px;
+            color: #fff;
+            line-height: calc(100% + 10px);
+            text-decoration: none;
+        }
+        .breadcrumb-item {
+            &::before {
+                color: #c4faff;
+            }
+        }
+        .breadcrumb-item.active {
+            color: #c4faff;
+            font-size: 12px;
+        }
+    }
+}
+/* end inner banner */
+
+/* spalized inner content style */
+.clip-shape {
+    padding: 80px 0 0;
+    position: relative;
+    z-index: 10;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--mainLightColor);
+        background-color: var(--main-turquoise);
+        z-index: -10;
+        clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+    }
+}
+.specialized-content {
+    h2 {
+        color: var(--mainDarkColor);
+        font-size: calc(var(--titleInitSize));
+        line-height: 56px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    p,
+    ul li,
+    ol li {
+        font-size: 52px;
+        font-weight: 500;
+        font-size: calc(var(--fontInitSize) + 0px);
+        line-height: calc(var(--fontInitSize) + 14px);
+        margin-bottom: 20px;
+        color: var(--initFontColor);
+    }
+    ul,
+    ol {
+        padding: 0;
+        li {
+            list-style: none;
+            position: relative;
+            padding-left: 50px;
+            span {
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: #e8fafb;
+                color: var(--mainColor);
+                font-size: var(--fontInitSize);
+                font-weight: 600;
+                text-align: center;
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+    .border-shape {
+        font-weight: 700;
+        font-size: var(--fontInitSize);
+        line-height: 26px;
+        color: #566f71;
+        margin-bottom: 0;
+        padding: 0 15px;
+        display: inline-block;
+        border-left: 2px solid var(--mainColor);
+    }
+}
+.specialized-img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-info {
+    box-shadow: 0 0 99px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 30px 20px;
+    min-height: 338px;
+    &.card-info2 {
+        min-height: 360px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        color: var(--mainDarkColor);
+        padding: 20px 0 15px;
+        margin-bottom: 0;
+    }
+    p {
+        color: var(--initFontColor);
+        font-size: calc(var(--fontInitSize) - 2px);
+        line-height: calc(var(--fontInitSize) + 10px);
+        margin-bottom: 20px;
+        span {
+            color: var(--mainColor);
+            font-weight: 700;
+        }
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+    .rating {
+        ul {
+            padding: 0;
+            display: inline-block;
+            border-radius: 6px;
+            padding: 0 12px;
+            margin: 0;
+            li {
+                list-style: none;
+                span {
+                    line-height: 50px;
+                    height: 50px;
+                    display: inline-block;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .good-ratting {
+        ul {
+            background-color: #e8fafb;
+            li {
+                span {
+                    color: var(--mainColor);
+                }
+            }
+        }
+    }
+    .gread-ratting {
+        ul {
+            background-color: #effaf0;
+            li {
+                span {
+                    color: #4ec75e;
+                }
+            }
+        }
+    }
+    .best-ratting {
+        ul {
+            background-color: #fff5e8;
+            li {
+                span {
+                    color: #ff9100;
+                }
+            }
+        }
+    }
+}
+/* spalized inner content style */
+
+.service-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    min-height: 370px;
+    h3 {
+        font-size: calc(var(--fontInitSize) + 4px);
+        line-height: 28px;
+        font-weight: 600;
+        color: var(--mainDarkColor);
+        margin-bottom: 15px;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddeeee;
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+                border: none;
+            }
+            a {
+                text-decoration: none;
+                font-size: 12px;
+                line-height: 24px;
+                color: #566f71;
+                font-weight: 500;
+            }
+        }
+    }
+    .card-details {
+        h4 {
+            font-size: calc(var(--fontInitSize) - 2px);
+            line-height: 14px;
+            font-weight: 500;
+            color: var(--mainDarkColor);
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        p {
+            color: var(--initFontColor);
+            font-size: 12px;
+            color: var(--initFontColor);
+            span {
+                font-size: 14px;
+                color: var(--mainColor);
+            }
+        }
+    }
+}

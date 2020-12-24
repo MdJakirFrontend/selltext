@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_7499" data-name="Group 7499" transform="translate(-435 -1522)">
+    <circle id="Ellipse_770" data-name="Ellipse 770" cx="25" cy="25" r="25" transform="translate(435 1522)" fill="#00c7cc" opacity="0.09"/>
+    <g id="infinity" transform="translate(446.796 1540.967)">
+      <path id="infinity-2" data-name="infinity" d="M9.593,10.474l2.514,2.514.007-.007,1.753,1.753.007.007,2.56,2.56a6.033,6.033,0,1,0,0-8.533l-.861.861,1.707,1.707.861-.861a3.62,3.62,0,1,1,0,5.12l-2.5-2.5-.008.008L11.3,8.767a6.033,6.033,0,1,0,0,8.533l.861-.861-1.706-1.707-.861.861a3.62,3.62,0,1,1,0-5.12Z" transform="translate(-1 -7)" fill="#00c7cc"/>
+    </g>
+  </g>
+</svg>

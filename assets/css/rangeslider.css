@@ -1,0 +1,138 @@
+.rangeslider,
+.rangeslider__fill {
+  display: block;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.rangeslider {
+  background: #e6e6e6;
+  position: relative;
+}
+
+.rangeslider--horizontal {
+  height: 10px;
+  width: calc(100% - 50px);
+  margin: auto;
+}
+
+.rangeslider--vertical {
+  width: 20px;
+  min-height: 150px;
+  max-height: 100%;
+}
+
+.rangeslider--disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+}
+
+.rangeslider__fill {
+  background: transparent;
+  position: absolute;
+}
+
+.rangeslider--horizontal .rangeslider__fill {
+  top: 0;
+  height: 100%;
+}
+
+.rangeslider--vertical .rangeslider__fill {
+  bottom: 0;
+  width: 100%;
+}
+
+.rangeslider__handle {
+  cursor: pointer;
+  display: inline-block;
+  width: 35px;
+  height: 26px;
+  position: absolute;
+  background-color: var(--mainColor);
+  border-radius: 4px;
+}
+
+
+.rangeslider--horizontal .rangeslider__handle {
+  top: -9px;
+  touch-action: pan-y;
+  -ms-touch-action: pan-y;
+}
+
+.rangeslider--vertical .rangeslider__handle {
+  left: -9px;
+  touch-action: pan-x;
+  -ms-touch-action: pan-x;
+}
+
+.rangeslider__value-bubble {
+  display: block;
+  position: absolute;
+  top: -8px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  margin-left: -6px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  /* display: none; */
+}
+
+
+/* for circle range */
+input.circle-range-select {
+  display: none
+}
+
+.circle-range-select-wrapper {
+  position: relative;
+  max-width: 100%;
+  width: 10em;
+  height: 10em;
+  margin: 1em;
+  border-radius: 50%;
+  border: .8em solid #ccc;
+  padding: 0 !important;
+  cursor: default
+}
+
+.circle-range-select-wrapper .handle {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  border: 0;
+  padding: 0;
+  cursor: pointer
+}
+
+.circle-range-select-wrapper .handle:before {
+  content: '';
+  position: absolute;
+  z-index: 3;
+  top: -1em;
+  left: -1em;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background: #000
+}
+
+.circle-range-select-wrapper .selected-range {
+  position: absolute;
+  z-index: 1;
+  color: #0ff
+}
+
+.circle-range-select-wrapper .values {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  margin-top: -.5em;
+  width: 100%;
+  font-size: .85rem;
+  text-align: center
+}

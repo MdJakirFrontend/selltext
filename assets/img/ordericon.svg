@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_7498" data-name="Group 7498" transform="translate(-435 -1522)">
+    <circle id="Ellipse_770" data-name="Ellipse 770" cx="25" cy="25" r="25" transform="translate(435 1522)" fill="#00c7cc" opacity="0.09"/>
+    <g id="Group_7519" data-name="Group 7519" transform="translate(-1.298 -1.298)">
+      <g id="track" transform="translate(451 1538)">
+        <path id="Path_1340" data-name="Path 1340" d="M12.433,15.866A3.433,3.433,0,1,0,9,12.433,3.433,3.433,0,0,0,12.433,15.866Z" transform="translate(-2.134 -2.134)" fill="#00c7cc"/>
+        <path id="Path_1341" data-name="Path 1341" d="M13.3,3a1.144,1.144,0,0,1,1.144,1.144V5.37a8.015,8.015,0,0,1,6.784,6.784h1.225a1.144,1.144,0,0,1,0,2.289H21.227a8.015,8.015,0,0,1-6.784,6.784v1.225a1.144,1.144,0,0,1-2.289,0V21.227A8.015,8.015,0,0,1,5.37,14.443H4.144a1.144,1.144,0,0,1,0-2.289H5.37A8.015,8.015,0,0,1,12.154,5.37V4.144A1.144,1.144,0,0,1,13.3,3ZM7.577,13.3A5.721,5.721,0,1,1,13.3,19.02,5.721,5.721,0,0,1,7.577,13.3Z" transform="translate(-3 -3)" fill="#00c7cc" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

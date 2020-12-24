@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_7588" data-name="Group 7588" transform="translate(-1290 -1427)">
+    <circle id="Ellipse_773" data-name="Ellipse 773" cx="25" cy="25" r="25" transform="translate(1290 1427)" fill="#9a57ff" opacity="0.09"/>
+    <g id="coffee" transform="translate(1304 1443)">
+      <path id="Path_302" data-name="Path 302" d="M6,2.5a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0v-2A1,1,0,0,0,6,2.5Z" transform="translate(-1 -2.5)" fill="#9a57ff"/>
+      <path id="Path_303" data-name="Path 303" d="M13,21.5a6,6,0,0,0,5.917-5H19a4,4,0,0,0,0-8v-1H1v8a6,6,0,0,0,6,6ZM3,9.5v6a4,4,0,0,0,4,4h6a4,4,0,0,0,4-4v-6Zm18,3a2,2,0,0,1-2,2v-4A2,2,0,0,1,21,12.5Z" transform="translate(-1 -2.5)" fill="#9a57ff" fill-rule="evenodd"/>
+      <path id="Path_304" data-name="Path 304" d="M9,3.5a1,1,0,0,1,2,0v2a1,1,0,0,1-2,0Z" transform="translate(-1 -2.5)" fill="#9a57ff"/>
+      <path id="Path_305" data-name="Path 305" d="M14,2.5a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0v-2A1,1,0,0,0,14,2.5Z" transform="translate(-1 -2.5)" fill="#9a57ff"/>
+    </g>
+  </g>
+</svg>

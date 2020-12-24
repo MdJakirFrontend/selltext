@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Website title -->
+    <title>register</title>
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/nioicon.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel='stylesheet' href='assets/css/jquery-ui.css'>
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+    <!-- header-wrp -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/buyselltextlogo.png" alt="main-logo" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span>&#9776;</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">How to Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbarRight">
+                        <li>
+                            <a href="#" class="buySellBtn transparentBtn">Login</a>
+                        </li>
+                        <li>
+                            <a href="#" class="buySellBtn">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--/ header-wrp -->
+
+
+    <!-- resisterWrapper -->
+    <section class="resisterWrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="registerForm register-form mb-4 md-0">
+                        <div class="title mb-4">
+                            <h3 class="mb-0 text-center">Sign Up Below</h3>
+                        </div>
+                        <form class="form-info" method="POST" action="https://www.buyselltext.com/register">
+                            <input type="hidden" name="_token" value="eDuBcfXWSMPTDFnFxGRDSMFZOBi5UfUDRcezJmFk">
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" name="name" placeholder="Username" id="name"
+                                    value="" autocomplete="off" required="" autofocus="">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" name="email" placeholder="Email" id="email"
+                                    value="" autocomplete="off" required="">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="password" class="form-control" name="password" placeholder="Password"
+                                    id="ppassword" autocomplete="new-password" required="">
+                            </div>
+                            <div class="form-group mb-4">
+                                <input type="password" class="form-control" name="password_confirmation"
+                                    placeholder="Confirm Password" id="cpassword" autocomplete="off" required="">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="checkContainer ">
+                                    <input type="checkbox" class="referralCode" id="referred_to_me"
+                                        name="referred_to_me" />
+                                    <span class="checkMark"></span>
+                                    I Have A Referral Code
+                                </label>
+                                <input type="text" class="form-control d-none referralField" name="referral_code"
+                                    placeholder="Referral Code" value="" id="referral_code" autocomplete="off">
+                            </div>
+                            <div class="form-group mb-4">
+                                <label class="checkContainer">
+                                    <input type="checkbox">
+                                    <span class="checkMark"></span>
+                                    I have read and agree to the Terms and
+                                    Conditions, Privacy
+                                    Policy and to receive email updates
+                                </label>
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LdhOuoUAAAAAI17s08tGCW7FKW4oFAl2wZv_QmT">
+                                <div style="width: 100%; height: 78px;">
+                                    <div><iframe
+                                            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdhOuoUAAAAAI17s08tGCW7FKW4oFAl2wZv_QmT&amp;co=aHR0cHM6Ly93d3cuYnV5c2VsbHRleHQuY29tOjQ0Mw..&amp;hl=en&amp;v=UFwvoDBMjc8LiYc1DKXiAomK&amp;size=normal&amp;cb=yadlcga2lvo8"
+                                            width="304" height="78" role="presentation" name="a-i97oi1w8r9o"
+                                            frameborder="0" scrolling="no"
+                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                    </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                        class="g-recaptcha-response"
+                                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                </div><iframe style="display: none;"></iframe>
+                            </div>
+                            <div class="form-group mt-4">
+                                <button type="submit" class="btn buySellBtn d-block px-5 py-2">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 ml-auto">
+                    <div class="signUpSiteBar mb-4 mb-md-0">
+                        <div class="singleInfo">
+                            <div class="title mb-3">
+                                <h3 class="mb-0">Tons Of Benefits, including…</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span class="ni ni-check"></span>
+                                    Writers For Most Kinds of Content
+                                </li>
+                                <li>
+                                    <span class="ni ni-check"></span>
+                                    Both SEO & Conversion Optimized
+                                </li>
+                                <li>
+                                    <span class="ni ni-check"></span>
+                                    Easily Track, Download & Find Every Article
+                                </li>
+                                <li>
+                                    <span class="ni ni-check"></span>
+                                    Easily Track, Download & Find Every Article
+                                </li>
+                                <li>
+                                    <span class="ni ni-check"></span>
+                                    NO monthly fees – only pay for content you order
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- resisterWrapper -->
+
+
+
+    <!-- footer -->
+    <footer class="footer registerFooter">
+        <div class="container">
+            <div class="footerContent">
+                <div class="footerLogo text-center mb-5">
+                    <img src="assets/img/footerbuyselltextlogo.png" alt="">
+                </div>
+                <div class="footerMenu text-center mb-4">
+                    <ul>
+                        <li>
+                            <a href="#">Prices</a>
+                        </li>
+                        <li>
+                            <a href="#">How to Order</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerSocial text-center mb-4">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/"><span class="ni ni-facebook-f"></span></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=en"><span class="ni ni-twitter"></span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"><span class="ni ni-instagram"></span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/"><span class="ni ni-pinterest"></span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/feed/"><span class="ni ni-linkedin"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyWrightWrapper text-center">
+                <p>&#169; Buyselltext 2020</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='assets/js/jquery-ui.min.js'></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

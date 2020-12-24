@@ -1,0 +1,252 @@
+.login-section {
+    background-image: url(../img/login-banner.png);
+}
+.login-section,
+.signin-section {
+    background-size: cover;
+    padding: 50px 0;
+    background-position: center;
+    @media (min-width: 768px) {
+        padding: 90px 0;
+    }
+    .signImg {
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+}
+.signin-section {
+    position: relative;
+    &::before {
+        height: -webkit-fill-available;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-image: url(../img/signinbg-shape.png);
+        left: 0;
+        background-repeat: no-repeat;
+    }
+}
+.field-wrap {
+    padding: 60px 0;
+    box-shadow: 0px 0px 99px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.forgot-password {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: right;
+    color: #0063a5;
+    display: block;
+    margin-bottom: 20px;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.field-title {
+    h2 {
+        font-family: "Leckerli One";
+        font-weight: 400;
+        font-style: normal;
+        color: var(--mainColor);
+        font-size: calc(var(--titleInitSize) - 2px);
+        line-height: calc(var(--titleInitSize) + 8px);
+        margin-bottom: 30px;
+    }
+    h3 {
+        font-size: calc(var(--titleInitSize) - 4px);
+        line-height: calc(var(--titleInitSize) + 6px);
+        color: var(--mainDarkColor);
+        font-weight: Bold;
+        margin-bottom: 40px;
+    }
+}
+
+.fields {
+    .inp-fields {
+        padding: 0 30px;
+        @media (min-width: 768px) {
+            padding: 0 60px;
+        }
+    }
+    .input {
+        font-weight: 400;
+        font-size: 13px;
+        color: #566f71;
+        border: 2px solid #ebeeef;
+        border-radius: 6px;
+        min-height: 52px;
+        line-height: 52px;
+        padding: 0 15px 0 40px;
+        width: 100%;
+        margin-bottom: 20px;
+        &[placeholder="Username"] {
+            background-image: url(../img/field-user.svg);
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: calc(0% + 15px) center;
+        }
+        &[placeholder="Password"] {
+            background-image: url(../img/locker.svg);
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: calc(0% + 15px) center;
+        }
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            color: #566f71;
+        }
+    }
+
+    .signUp {
+        padding: 0 30px;
+        @media (min-width: 768px) {
+            padding: 0 60px;
+        }
+        .signUp-btn {
+            background-color: transparent;
+            border: 1px solid var(--mainColor);
+            color: var(--mainColor);
+            &:hover {
+                background-color: var(--mainColor);
+                color: #fff;
+            }
+        }
+    }
+
+    .missingAccount {
+        border-top: 1px solid #e3e7e8;
+        padding-top: 20px;
+        margin: 30px 0 20px;
+        p {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            > span {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            &::after,
+            &::before {
+                content: "";
+                display: block;
+                height: 1px;
+                background-color: #bfcbce;
+                flex: 1;
+            }
+        }
+    }
+}
+.loginBtn,
+.signUp-btn {
+    display: block;
+    width: 100%;
+    min-height: 52px;
+    line-height: 52px;
+    border-radius: 26px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px 0;
+    outline: none;
+    &:focus {
+        outline: none;
+    }
+}
+.loginWrap {
+    padding: 30px;
+    box-shadow: 0px 0px 99px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    .login-field {
+        width: 100%;
+    }
+    .signImg {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .input-group {
+        text-align: left;
+        margin-bottom: 30px;
+        position: relative;
+        label {
+            width: 100%;
+            display: block;
+            font-family: Poppins;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 26px;
+            color: #566f71;
+        }
+        .inpField {
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 26px;
+            color: #003c41;
+            border: 0;
+            border-bottom: 1px solid var(--mainColor);
+            width: 100%;
+            &:focus {
+                outline: none;
+            }
+        }
+        span {
+            position: absolute;
+            right: 0;
+            bottom: 7px;
+            cursor: pointer;
+            color: #b1bcbc;
+            font-size: 20px;
+        }
+    }
+    .forgot-password {
+        text-decoration: underline;
+        color: var(--mainColor);
+    }
+    .missingAccount {
+        a {
+            font-family: Poppins;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 26px;
+            text-align: center;
+            color: #566f71;
+        }
+    }
+    .resister {
+        p {
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 26px;
+            color: #003c41;
+
+            a {
+                color: var(--mainColor);
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        padding: 50px;
+        .login-field {
+            width: 58%;
+        }
+        .signImg {
+            width: 38%;
+            margin-bottom: 0;
+        }
+    }
+    @media (min-width: 1200px) {
+        padding: 100px;
+    }
+}

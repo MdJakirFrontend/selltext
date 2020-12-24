@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_7498" data-name="Group 7498" transform="translate(-435 -1522)">
+    <circle id="Ellipse_770" data-name="Ellipse 770" cx="25" cy="25" r="25" transform="translate(435 1522)" fill="#00c7cc" opacity="0.09"/>
+    <g id="Group_7513" data-name="Group 7513" transform="translate(-1.009 -1.135)">
+      <g id="loadbar-doc" transform="translate(452 1538)">
+        <path id="Path_757" data-name="Path 757" d="M18.64,5.252H7.378A1.126,1.126,0,0,0,6.252,6.378V19.892a1.126,1.126,0,0,0,1.126,1.126H18.64a1.126,1.126,0,0,0,1.126-1.126V6.378A1.126,1.126,0,0,0,18.64,5.252ZM7.378,3A3.378,3.378,0,0,0,4,6.378V19.892a3.378,3.378,0,0,0,3.378,3.378H18.64a3.378,3.378,0,0,0,3.378-3.378V6.378A3.378,3.378,0,0,0,18.64,3Z" transform="translate(-4 -3)" fill="#00c7cc" fill-rule="evenodd"/>
+        <path id="Path_758" data-name="Path 758" d="M8,7h9.009V9.252H8Z" transform="translate(-3.495 -2.495)" fill="#00c7cc"/>
+        <path id="Path_759" data-name="Path 759" d="M8,11h9.009v2.252H8Z" transform="translate(-3.495 -1.991)" fill="#00c7cc"/>
+        <path id="Path_760" data-name="Path 760" d="M8,15h5.631v2.252H8Z" transform="translate(-3.495 -1.486)" fill="#00c7cc"/>
+      </g>
+    </g>
+  </g>
+</svg>
